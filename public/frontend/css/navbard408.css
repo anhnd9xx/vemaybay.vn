@@ -1,0 +1,108 @@
+.vmb-header {
+    background: #00264E;
+    padding: 10px 0 10px 0;
+    z-index: 9999;
+}
+
+#desktop-menu {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transform: translateY(0);
+}
+
+#desktop-menu.min-vh-100 {
+    transform: translateY(0);
+}
+
+.vmb-header-login {
+    color: #FFF
+}
+
+.vmb-header-login:hover {
+    color: #FFA300
+}
+
+.navbar-menu {
+    color: #FFF
+}
+
+.vmb-header-middle {
+    display: inline-block;
+    vertical-align: middle;
+    background: url("public/frontend/images/Icon24h.png") no-repeat left center;
+    padding-left: 60px;
+    min-height: 45px;
+    text-align: left
+}
+
+.vmb-header-middle span {
+    display: block;
+    color: #FFA300
+}
+
+.vmb-header-middle b {
+    display: block;
+    font-size: 18px;
+    letter-spacing: .04em;
+    line-height: initial;
+    color: #FFF
+}
+
+.navbar-list-menu {
+    font-family: "SF" !important;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    height: 30px
+}
+
+.list-menu-container {
+    list-style: none;
+}
+
+.menu-sub-title {
+    font-family: "SF" !important;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFF
+}
+
+.menu-subtitle {
+    font-family: "SF" !important;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFA300
+}
+
+.sub-menu {
+    border-bottom: 1px solid #04658E
+}
+
+a.href-menu {
+    color: #FFF
+}
+
+a.href-menu:hover {
+    color: #FFA300
+}
+
+.list-style {
+    list-style: none;
+    margin-left: -40px !important;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000
+}
+
+.full-screen {
+    background: #00264E;
+    height: 0px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.setting-field select.form-control {
+    border-bottom: 1px solid #FFA300 !important;
+}

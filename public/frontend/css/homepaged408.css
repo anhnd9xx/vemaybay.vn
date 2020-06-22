@@ -1,0 +1,429 @@
+.vmb-homepage-title {
+    border-bottom: solid 1px;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.vmb-book-place {
+    border-bottom: solid 1px #FFA300;
+    font-size: 18px;
+}
+
+    .vmb-book-place a {
+        color: #000;
+    }
+
+.vmb-small-word {
+    font-size: 14px;
+}
+
+.vmb-big-word {
+    font-size: 24px;
+}
+
+.vmb-banner {
+    background-color: #F0EFED;
+}
+
+.vmb-choose-us {
+    background-color: #F5F8FD;
+}
+
+.vmb-choose-us-title {
+    background-color: #FFA300;
+    color: #F0EFED;
+    font-size: 24px;
+}
+
+.vmb-hotel-partner-img {
+    position: relative;
+    height: 30px;
+    top: 30%;
+}
+
+.vmb-href {
+    border-bottom: #2A2326 solid 1px;
+}
+
+    .vmb-href a {
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        color: #2A2326;
+        line-height: 27px;
+    }
+
+    .vmb-href i {
+        font-size: 18px;
+        color: #2A2326;
+    }
+
+    .vmb-href:hover * {
+        color: #FFA300 !important;
+    }
+
+    .vmb-href:hover {
+        border-bottom: #FFA300 solid 1px;
+    }
+
+.vmb-color {
+    color: #FFA300 !important;
+}
+
+.vmb-border-bottom-color {
+    border-bottom: 1px solid #FFA300 !important;
+}
+
+.vmb-homepage-booking-place {
+    background-color: #FFA300;
+}
+
+.vmb-booking-title-place {
+    font-family: San Francisco Text;
+    font-size: 12px;
+    line-height: 14px;
+    color: #837A76;
+}
+
+.vmb-booking-ticket {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.book-place-tiltle-one {
+    font-size: 12px;
+    line-height: 14px;
+    color: #837A76;
+}
+
+.booking-pepple-titile {
+    font-family: San Francisco Text;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #837A76;
+    padding-bottom: 11px;
+}
+
+.booking-people-modal {
+    border-bottom: #FFA300 1px solid; /* padding-bottom: 10px; */
+}
+
+.counter-container {
+    border: #FFA300 solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-none {
+    border: none;
+    outline: 0;
+    text-decoration: none;
+}
+
+.icon-button0 {
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+.icon-button-1 {
+    font-size: 24px; /* margin-top: 5px; */
+}
+
+.detail-ticket {
+    font-family: San Francisco Text;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #2A2326;
+    padding-top: 6px;
+}
+
+.whiteplain-icon {
+    position: absolute;
+    left: 19px;
+    top: 5px;
+    right: auto;
+    bottom: auto;
+}
+
+.vmb-booking-link {
+    font-family: San Francisco Text;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+    .vmb-booking-link .nav-link {
+        font-weight: 500;
+    }
+
+.find-plain {
+    display: flex;
+    flex-direction: row;
+    height: 203px;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
+.booking-services .nav-link.active {
+    color: #FFA300 !important;
+    background-color: transparent !important;
+}
+
+.booking-services .nav-link {
+    font-family: "SF" !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+}
+
+.favorite-title, .section-title {
+    font-size: 24px;
+    line-height: 29px;
+    color: #2A2326;
+}
+
+.reason-des {
+    font-family: "SF" !important;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.reason-section .reason-des p {
+    margin: 0;
+}
+
+.reason-section .reason-title {
+    font-size: 24px;
+    line-height: 21px;
+    color: #000;
+    font-family: "SF" !important;
+}
+
+.booking-type-tab .nav-link {
+    font-size: 18px;
+    line-height: 21px;
+    color: #C4C4C4;
+}
+
+    .booking-type-tab .nav-link.active {
+        color: #FFA300;
+    }
+
+        .booking-type-tab .nav-link.active > .border-bottom {
+            border-color: #FFA300 !important;
+        }
+
+.vmb-choose-us-title {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.banner-item-desc {
+    bottom: 0;
+}
+
+    .banner-item-desc h1 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 100;
+    }
+
+.favorite-more-info a:hover {
+    color: #FFA300 !important;
+}
+
+.favorite-more-info a {
+    color: #2A2326 !important;
+}
+
+.favorite-more-info {
+    margin: 0;
+}
+
+.vmb-search {
+    min-height: 315px;
+}
+
+.list-payment {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: -40px;
+}
+
+.air-plain-range {
+    line-height: 60px;
+    height: 60px;
+}
+
+.payment-range {
+    height: 60px;
+    line-height: 60px;
+    margin-right: 9px;
+}
+
+.favorite-item {
+    cursor: pointer;
+}
+
+    .favorite-item:hover * {
+        color: #FFA300 !important;
+    }
+
+    .favorite-item .favorite-item-thumbnail {
+        width: 94px;
+        height: 94px;
+    }
+
+.favorite-tab-content {
+    min-height: 415px;
+}
+
+.register-label {
+    font-size: 14px;
+}
+
+.btn-vmb {
+    background: linear-gradient(36.87deg, #FFA300 -10.56%, rgba(255, 255, 255, 0) 111.67%), #FF6D00 !important;
+    color: #fff !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 18px !important;
+    font-family: "SF" !important;
+    border: inherit !important;
+}
+
+.news-title {
+    color: #00264E;
+    font-size: 52px;
+}
+
+.hoz-line {
+    background-color: #00264E;
+    width: 172px;
+    height: 4px;
+}
+
+.news-item .news-title, .news-item img {
+    cursor: pointer;
+}
+
+.news-item .news-title {
+    color: #00264E;
+    font-size: 14px;
+}
+
+.news-group-title {
+    font-size: 14px;
+    color: #FFA300;
+}
+
+.news-hoz-line {
+    background-color: #00264E;
+    width: 75px;
+    height: 2px;
+}
+
+.news-body-overview {
+    font-size: 16px;
+    color: #2A2326;
+}
+
+.btn-news-loadmore {
+    width: 200px;
+}
+
+.news-detail-group-name {
+    font-size: 24px;
+    color: #00264E;
+}
+
+.news-content img {
+    text-align: center !important;
+    max-width: 100%;
+    height: auto !important;
+    width: auto !important;
+}
+
+.address-item {
+    font-size: 18px;
+}
+
+.menu-btn {
+    cursor: pointer;
+}
+
+.follow-us {
+    font-size: 18px;
+}
+
+.social-icons i {
+    font-size: 25px;
+}
+
+.list-airplain {
+    list-style: none;
+}
+
+.vmb-line {
+    line-height: 30px;
+}
+
+.vmb-font-size-3 {
+    font-size: 12px;
+}
+
+.vmb-line-wight-inf {
+    margin-left: -15px;
+}
+
+.line-range {
+    display: block;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+
+.news-relation-layout h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00adef;
+    line-height: initial;
+    margin: 0 0 15px;
+}
+
+@media (max-width: 768px) {
+    .banner-item-desc h1 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .btn-news-loadmore {
+        width: 100%;
+    }
+
+    .vmb-header a img {
+        width: 150px;
+    }
+
+    .btn-vmb {
+        width: 100% !important;
+    }
+
+    .address-item {
+        font-size: 16px;
+    }
+
+    .vmb-header .search-box {
+        width: 100%;
+    }
+}
+
+.go-admin {
+    background-color: #000;
+}

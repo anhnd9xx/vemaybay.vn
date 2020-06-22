@@ -1,0 +1,60 @@
+.vmb-sppage-question {
+    font-size: 21px;
+    color: #2A2326
+}
+
+.sp-page-title {
+    background-color: #FFA300;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px
+}
+
+.vmb-sppage-answer {
+    font-size: 16px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
+}
+
+.vmb-sppage-title-hotline {
+    color: #FFA300;
+    font-size: 20px
+}
+
+.vmb-sppace-hotline {
+    color: #00264E;
+    font-size: 24px
+}
+
+.sppage-banner {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #2A2326
+}
+
+.sppage-border-content {
+    font-family: San Francisco Text;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    color: #2A2326
+}
+
+.sppage-border-content-one {
+    font-family: San Francisco Text;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #2A2326
+}
+
+.register img {
+    height: 20px;
+    width: 20px
+}

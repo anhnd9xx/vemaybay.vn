@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Sans Francisco";
+    src: url("public/frontend/fonts/SanFranciscoText-Medium.ttf")
+}
+
+@font-face {
+    font-family: "SF";
+    src: url("public/frontend/fonts/SF-UI-Display-Regular.otf")
+}
+
+html,
+body,
+#vemaybay-app {
+    font-family: "SF" !important
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.spinner-border-sm {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+    border-width: .14em !important
+}
+
+.form-field__label {
+    font-size: .75rem;
+    -webkit-transform: translateY(-14px);
+    transform: translateY(-14px);
+    display: block;
+    font-weight: 400;
+    left: 0;
+    margin: 0;
+    padding: 18px 12px 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s;
+    width: 100%
+}
+
+.form-field__control {
+    background: #eee;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.form-field__bar {
+    border-bottom: 2px solid #b11adc;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all 0.4s;
+    width: 1%
+}
+
+.form-field__input,
+.form-field__textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 24px;
+    outline: 0;
+    padding: 0 12px 10px 12px;
+    width: 100%
+}
+
+.form-field__input:-ms-input-placeholder~.form-field__label,
+.form-field__textarea:-ms-input-placeholder~.form-field__label {
+    font-size: 1.2rem;
+    transform: translateY(0)
+}
+
+.form-field__input:placeholder-shown~.form-field__label,
+.form-field__textarea:placeholder-shown~.form-field__label {
+    font-size: 1.2rem;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.form-field__input:focus~.form-field__label,
+.form-field__textarea:focus~.form-field__label {
+    color: #b11adc;
+    font-size: .75rem;
+    -webkit-transform: translateY(-14px);
+    transform: translateY(-14px)
+}
+
+.form-field__input:focus~.form-field__bar,
+.form-field__textarea:focus~.form-field__bar {
+    border-bottom: 2px solid #b11adc;
+    -webkit-transform: scaleX(150);
+    transform: scaleX(150)
+}
+
+.form-field__textarea {
+    height: 150px
+}
+
+.font-weight-normal {
+    font-weight: 500 !important
+}
+
+.color-yellow {
+    color: #FFA300 !important
+}
+
+.button-style {
+    height: 45px;
+    background: #FFA300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF
+}
+
+.news-title-item {
+    font-size: 18px !important
+}
+
+.form-control {
+    background: inherit !important
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner:after,
+.hamburger.is-active .hamburger-inner:before {
+    background-color: #fff;
+}
+
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before {
+    background-color: #fff;
+}
+
+.contact-number {
+    font-size: 24px;
+}
+
+.contact-number-2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.breadcrumb {
+    background-color: #fff;
+    border-bottom: 1px dashed #aaa;
+}
+
+.breadcrumb a {
+    color: rgba(0, 0, 0, .45);
+    -webkit-transition: color .3s;
+    transition: color .3s;
+}
+
+.relation-news p {
+    font-size: 22px !important;
+    color: #00adef;
+    border-bottom: 3px solid #00adef;
+    line-height: 36px;
+    display: inline-block;
+}
+
+.not-found-hotline {
+    font-size: 24px;
+    line-height: 37px;
+    color: #00264E;
+}

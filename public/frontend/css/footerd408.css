@@ -1,0 +1,151 @@
+.footer {
+    background: #00264E;
+    padding: 30px 0 5px;
+    color: #fff;
+    margin-top: 30px
+}
+
+.footer-title {
+    color: #FFA300;
+    font-size: 16px
+}
+
+.footer-title-airplain {
+    font-size: 12px
+}
+
+.footer-airplain {
+    font-size: 13px;
+    border-bottom: #837A76 solid 1px
+}
+
+.logo-footer {
+    display: flex
+}
+
+.tax-info {
+    font-size: 13px
+}
+
+.contact-number {
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    align-items: center
+}
+
+    .contact-number img {
+        margin-right: 5px
+    }
+
+.search-box {
+    width: 351px;
+    position: relative
+}
+
+    .search-box .search-icon {
+        bottom: 5px;
+        position: absolute;
+        right: 0
+    }
+
+    .search-box .footer-input-search {
+        background: inherit;
+        color: #fff;
+        width: 100%;
+        border-bottom: 1px solid #FFA300 !important;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none
+    }
+
+.footer-input-search::placeholder {
+    color: #fff
+}
+
+.footer-airline-title {
+    font-size: 18px;
+    color: #FFA300 !important;
+    display: inline-block;
+    border-bottom: 1px solid #00264e;
+    cursor: pointer
+}
+
+    .footer-airline-title:hover {
+        border-bottom: 1px solid #FFA300
+    }
+
+.footer-about-us-title {
+    font-size: 24px;
+    color: #FFA300;
+    display: inline-block;
+    cursor: pointer
+}
+
+.footer-seperate .border-bottom {
+    color: #837A76 !important;
+    border-color: #837A76 !important
+}
+
+.footer-logo-vmb {
+    width: 160px
+}
+
+.footer-category-list .nav-item > a {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 400;
+    border-bottom: 1.5px solid #00264e;
+    display: inline-block
+}
+
+    .footer-category-list .nav-item > a.active {
+        color: #FFA300 !important;
+        border-bottom: 1.5px solid #FFA300
+    }
+
+.footer-web-info .nav-link {
+    font-size: 13px;
+    color: #fff
+}
+
+.hover_yellow:hover {
+    color: #FFA300 !important
+}
+
+@media(max-width:768px) {
+    .contact-number, .contact-number-2 {
+        font-size: 18px
+    }
+
+    .respon-footer {
+        flex-direction: column
+    }
+}
+
+.vmb-airline {
+    font-size: 12px
+}
+
+.f-12 {
+    font-size: 12px
+}
+
+.padding-style {
+    padding: 5px 0
+}
+
+.line-style {
+    font-size: 18px;
+    line-height: initial;
+    display: block;
+    font-weight: 200
+}
+
+@media (max-width: 768px) {
+    .footer-hotline-mobile .contact-number,
+    .footer-hotline-mobile .contact-number-2 {
+        font-size: 22px;
+    }
+}

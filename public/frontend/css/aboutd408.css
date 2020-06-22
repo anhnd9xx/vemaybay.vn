@@ -1,0 +1,40 @@
+.about-title {
+    font-size: 64px;
+    color: #FFA300
+}
+
+.about-content {
+    width: 774px
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff
+}
+
+.about-body {
+    color: #2A2326;
+    font-size: 18px
+}
+
+.third-party {
+    background: #F5F8FD
+}
+
+.third-party p.vmb-help-border-content {
+    font-size: 18px;
+    color: #4D4444
+}
+
+.third-party b.vmb-help-border-content {
+    font-size: 12px;
+    line-height: 14px;
+    color: #2A2326
+}

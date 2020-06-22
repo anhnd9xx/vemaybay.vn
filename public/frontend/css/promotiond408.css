@@ -1,0 +1,72 @@
+.vmb-promotion-title {
+    background: #FFA300
+}
+
+.vmb-promotion-big-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000
+}
+
+.promotion-input-container {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0 0
+}
+
+.promotion-input-1 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #C4C4C4;
+    background: #F0EFED
+}
+
+.promotion-input {
+    border: 1px solid #FFA300!important;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 17px;
+    width: 17px;
+    margin-right: 12px
+}
+
+.promotion-input-2 {
+    padding: 26px 0 3px 24px
+}
+
+.promotion-container-content-input {
+    font-family: San Francisco Text;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2A2326
+}
+
+.context-title {
+    font-family: San Francisco Text;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000
+}
+
+.sub-title {
+    font-family: San Francisco Text;
+    font-size: 14px;
+    line-height: 17px;
+    color: #837A76
+}
+
+.cold-background {
+    mix-blend-mode: soft-light;
+    background-color: #2ca5f8
+}
+
+.promotion-content {
+    position: absolute;
+    left: 34.24%;
+    right: 17.43%;
+    top: 25.31%;
+    bottom: 0
+}

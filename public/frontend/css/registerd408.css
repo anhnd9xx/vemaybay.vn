@@ -1,0 +1,51 @@
+.register .search-box {
+    width: 100%
+}
+
+.register .search-icon {
+    color: #000 !important;
+}
+
+.register input.footer-input-search::placeholder,
+.register input.footer-input-search {
+    color: #808080 !important;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none
+}
+
+.form-control:focus {
+    border-color: #ccc;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.register-label {
+    margin-bottom: -5px;
+    font-size: 17px;
+    padding-top: 20px
+}
+
+.register-checkbox {
+    padding-top: 15px
+}
+
+.register-checkbox-input {
+    border: 1px solid #FFA300;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 23px;
+    width: 25px
+}
+
+.register-button {
+    color: #ffff;
+    background-color: #FFA300;
+    border-radius: 4px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 21px;
+    outline: none
+}
